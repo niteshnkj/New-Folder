@@ -196,7 +196,6 @@ export function QueryIconSvg() {
 export function HeroBgSvg() {
   return (
     <>
-      {" "}
       <svg
         className="absolute hidden md:block -top-36 left-0 w-full h-auto -z-10"
         viewBox="0 0 1365 470"
@@ -224,7 +223,7 @@ export function HeroBgSvg() {
       <svg
         width="375"
         height="230"
-        className="absolute md:hidden -top-36 left-0 w-full h-auto -z-10"
+        className="absolute md:hidden top-0 left-0 w-full h-auto -z-10"
         viewBox="0 0 375 230"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -275,7 +274,7 @@ export function HeroBgSvg() {
       <svg
         width="375"
         height="235"
-        className="absolute md:hidden -top-36 left-0 w-full h-auto -z-10"
+        className="absolute md:hidden top-0 left-0 w-full h-auto -z-10"
         viewBox="0 0 375 235"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

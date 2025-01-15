@@ -11,11 +11,11 @@ const Accordion = ({ items }) => {
   };
 
   return (
-    <div className="space-y-4 flex flex-col items-center" >
+    <div className="space-y-4 flex flex-col items-center relative md:top-0 top-[90px]">
       {items.map((item, index) => (
         <div
           key={index}
-          className="flex flex-col bg-white rounded-lg shadow-lg p-4 md:p-6 border border-gray-200 transition-all w-[963px]"
+          className="flex flex-col bg-white rounded-lg shadow-lg p-4 md:p-6 border border-gray-200 transition-all w-[351px] md:w-[963px]"
         >
           <div
             onClick={() => handleToggle(index)}
