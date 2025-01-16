@@ -54,10 +54,10 @@ const QueryForm = () => {
           ></textarea>
         </div>
 
-        <div className="text-center font-montserrat font-bold">
+        <div className="text-center font-montserrat font-bold flex justify-center">
           <button
             type="submit"
-            className="font-montserrat w-[171px] md:w-[191px] h-[33px] px-6 py-2 text-white bg-[#FD2E5A] rounded-[3px] text-[11px] md:text-[16px] "
+            className="font-montserrat w-[171px] md:w-[191px] h-[33px] flex items-center justify-center text-white bg-[#FD2E5A] rounded-[3px] text-[11px] md:text-[16px]"
           >
             Submit
           </button>
