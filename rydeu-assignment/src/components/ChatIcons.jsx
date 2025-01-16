@@ -1,7 +1,7 @@
 const ChatIcons = () => {
   return (
-    <div className="flex gap-4 items-center justify-center">
-      <span>
+    <div className="flex gap-8 md:gap-14 items-center justify-center text-[11px]">
+      <span className="flex flex-col text-center items-center hover:bg-[#DEF6F5]">
         <svg
           width="54"
           height="53"
@@ -91,7 +91,7 @@ const ChatIcons = () => {
         </svg>
         <p>Telegram</p>
       </span>
-      <span>
+      <span className="flex flex-col text-center items-center hover:bg-[#DEF6F5]">
         <svg
           width="54"
           height="54"
@@ -156,7 +156,7 @@ const ChatIcons = () => {
         </svg>
         <p>Whatsapp</p>
       </span>
-      <span>
+      <span className="flex flex-col text-center items-center hover:bg-[#DEF6F5]">
         <svg
           width="51"
           height="53"

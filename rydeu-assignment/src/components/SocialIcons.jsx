@@ -1,6 +1,6 @@
 const SocialIcons = () => {
   return (
-    <div className="flex gap-4 items-center justify-center">
+    <div className="flex gap-6 md:gap-6 items-center justify-center">
       <svg
         width="34"
         height="34"
